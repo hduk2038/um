@@ -1,0 +1,174 @@
+/*----------------------------------------------
+   Whole style for the online shopping website
+----------------------------------------------*/
+body{
+	font-family: Verdana, Times, serif;
+    font-size: 16px;
+    background-color: #FDFFDF;
+    color: #494949;
+    margin: 0;
+    padding: 0;
+	background-image: url("img/bottom_half.png");
+	background-repeat: repeat;
+}
+
+p.warning {
+	font-family: Verdana, Times, serif;
+	width: 500px;
+    color: #000000;	
+    word-wrap: break-word
+}
+
+
+/*----for heading------*/
+h1.title{
+	font-family: Verdana, Times, serif;
+	position: relative;
+    left: 100px;
+    font-size: 32px;
+    color: #000000;
+}
+
+h1{
+	font-family: Verdana, Times, serif;
+	text-align:middle;
+    font-size: 24px;
+    color: #000000;
+}
+
+h2.frozen {
+	font-family: Verdana, Times, serif;
+	position: relative;
+    left: 100px;
+    font-size: 26px;
+    color: #000000;	
+}
+
+/*----for map link------*/
+a:link
+{
+    color: #67daf7;
+}
+a:visited
+{
+    color: #67daf7;
+}
+a:hover
+{
+    color: #67daf7;
+}
+a:active
+{
+    color: #67daf7;
+    
+}
+
+/*-------for main content---------*/
+.content{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header{
+    color: #000000;
+	position: relative;
+	padding: 0;
+    margin-bottom: 0px;
+} 
+
+#header h1{
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	color: #ffffff;
+	line-height: 200%;
+	border: none;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Arial, Georgia, Serif;
+}
+
+#body{
+	background-color: #FDFFDF;
+	margin-bottom: 20px;
+	padding: 0px 20px 10px 20px;
+}
+
+.redWord {
+	color: red;
+}
+
+input[type="text"]  {
+	text-align:right;
+	width: 180px;
+	display: block;	 
+}
+
+input.submit {
+	float: right; 
+	padding-right: 50px; 
+	margin-right: 65px;
+	width:80
+}
+
+input.formText {
+	text-align:left;
+	width: 180px;
+	display: block;	 
+}
+
+input.leftButton {
+	width: 60px;
+    float: left;
+    text-align: middle;
+}
+
+input.checkout {
+	width: 80px;
+    float: right;
+    text-align: middle;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#categorymap{
+	
+}
+
+#subcategoryImage{
+
+
+}
+
+/*-----------For table-----------*/
+table{
+	border: 0px;
+	border-collapse: separate;
+}
+
+table th{
+	width: 150px;
+	padding: 5px;
+	background-color: #bbcdde;
+	text-align: left;
+	font-size: 14px;
+
+}
+
+table td.productForm{
+	width: 150px;
+	padding: 5px;
+	font-size: 14px;
+}
+
+table td.button{
+	text-align: right;
+	width: 150px;
+	padding: 5px;
+	font-size: 14px;
+}
+
